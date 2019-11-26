@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TaskApplication": {
+      "commandName": "Project",
+      "commandLineArgs": "SampleTextFile_50kb.txt 3 lokeshbatchstorage zN3s4yNWI+TSahs53dIaS0c5qUZFtLc7mWXIKiHgBzU3ugXav1u2QfkHVU2UTchQb25nRcjLBfCcGCtTsS450g== output SampleTextFile_50kb.txt"
+    }
+  }
+}
