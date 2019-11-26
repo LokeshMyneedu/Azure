@@ -6,6 +6,10 @@ namespace AzureLearn
     {
         static void Main(string[] args)
         {
+            MainTask(args);
+        }
+        static async void MainTask(string[] args)
+        {
             Console.WriteLine("Hello World!");
             //VirtualMachines.CreateVirtualMachines();
             // var vm = VirtualMachines.GetVm();
@@ -13,7 +17,8 @@ namespace AzureLearn
             // VirtualMachines.StopVm(vm);
             //VirtualMachines.DeallocateVm(vm);
             // ResourceGroup.DeleteResourceGroup("myResourceGroup");
-            StorageAccount.ConnnectStorageAccount();
+           // StorageAccount.ConnnectStorageAccount();
+            BatchAccount.CreateBatchProcessAsync();
 
         }
     }
